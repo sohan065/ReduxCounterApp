@@ -1,17 +1,17 @@
-import { INCREMENT, DECREMENT, RESET } from "../constants";
-const incrementCounter = () => {
+import { INCREMENT, DECREMENT, RESET } from "../constants/counter";
+export const incrementCounter = () => {
   return {
     type: INCREMENT,
   };
 };
 
-const decrementCounter = () => {
+export const decrementCounter = () => {
   return {
     type: DECREMENT,
   };
 };
 
-const resetCounter = () => {
+export const resetCounter = () => {
   return {
     type: RESET,
   };
